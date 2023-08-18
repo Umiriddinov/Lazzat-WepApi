@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lazzat.DataAccess\Lazzat.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Helpers\" />
+    <Folder Include="Dtos\Categories\" />
+    <Folder Include="Interfaces\Categories\" />
+    <Folder Include="Interfaces\Common\" />
+    <Folder Include="Services\Categories\" />
+    <Folder Include="Services\Common\" />
+    <Folder Include="Validators\Dtos\Categories\" />
+  </ItemGroup>
+
+</Project>
